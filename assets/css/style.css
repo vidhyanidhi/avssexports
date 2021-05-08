@@ -962,7 +962,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -975,7 +975,6 @@ section {
   justify-content: flex-end;
   align-items: flex-start;
   padding: 20px;
-  background-color: rgba(128, 128, 128, 0.5);
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -985,12 +984,12 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
   font-style: italic;
-  color: #fff;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -999,7 +998,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: black;
+  color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
